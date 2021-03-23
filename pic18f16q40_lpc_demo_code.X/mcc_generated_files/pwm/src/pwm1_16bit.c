@@ -79,7 +79,7 @@ void PWM1_16BIT_Initialize(void)
 
      PWM1PRL = 0x0;
 
-     PWM1PRH = 0x0;
+     PWM1PRH = 0x10;
 
      PWM1CPRE = 0x9;
 
@@ -91,13 +91,13 @@ void PWM1_16BIT_Initialize(void)
 
      PWM1S1CFG = 0x0;
 
-     PWM1S1P1L = 0x0;
+     PWM1S1P1L = 0xCD;
 
-     PWM1S1P1H = 0x0;
+     PWM1S1P1H = 0x0C;
 
      PWM1S1P2L = 0x0;
 
-     PWM1S1P2H = 0x0;
+     PWM1S1P2H = 0x8;
     
     //Clear PWM1_16BIT period interrupt flag
     PIR4bits.PWM1PIF = 0;
