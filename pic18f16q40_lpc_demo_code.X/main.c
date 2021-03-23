@@ -62,7 +62,7 @@ void main(void)
                 break;
             case 6: PWM();
                 break;
-            case 7: Timer1();
+            case 7: Timers();
                 break;
             case 8: Interrupt();
                 break;

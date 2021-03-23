@@ -75,7 +75,7 @@
         <logicalFolder name="Lab07_Timers"
                        displayName="Lab07_Timers"
                        projectFiles="true">
-          <itemPath>Labs/Lab07_Timers/Timer1.c</itemPath>
+          <itemPath>Labs/Lab07_Timers/Timers.c</itemPath>
         </logicalFolder>
         <logicalFolder name="Lab08_Interrupts"
                        displayName="Lab08_Interrupts"
@@ -156,7 +156,7 @@
         <targetDevice>PIC18F16Q40</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC8</languageToolchain>
         <languageToolchainVersion>2.31</languageToolchainVersion>
         <platform>3</platform>

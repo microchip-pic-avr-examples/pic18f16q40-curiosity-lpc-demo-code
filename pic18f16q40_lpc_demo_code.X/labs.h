@@ -196,7 +196,7 @@ void PWM(void);
   @Param
     none
 */
-void Timer1(void);
+void Timers(void);
 
 /**
   @Summary

@@ -61,7 +61,7 @@ void PWM(void) {
     if (labState == NOT_RUNNING) {
         LEDs_SetLow();
         PWM_Output_D7_Enable();
-        TMR2_StartTimer();
+        Timer2_Start();
 
         labState = RUNNING;
     }
@@ -75,7 +75,7 @@ void PWM(void) {
     }
 
     if (switchEvent) {
-        TMR2_StopTimer();
+        Timer2_Stop();
         PWM_Output_D7_Disable();
         labState = NOT_RUNNING;
     }

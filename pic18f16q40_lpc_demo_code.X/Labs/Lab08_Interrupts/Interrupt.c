@@ -67,8 +67,7 @@ void Interrupt(void) {
         INTERRUPT_GlobalInterruptEnable();
         INTERRUPT_TMR0InterruptEnable();
         
-        TMR0_SetInterruptHandler(LAB_ISR);
- 
+        Timer0_OverflowCallbackRegister(LAB_ISR);
         labState = RUNNING;
     }
 
