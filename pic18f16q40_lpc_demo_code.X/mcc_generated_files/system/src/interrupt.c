@@ -93,6 +93,18 @@ void  INTERRUPT_Initialize (void)
 
 }
 
+void __interrupt() INTERRUPT_InterruptManager (void)
+{
+    // interrupt handler
+    if(PIE3bits.TMR0IE == 1 && PIR3bits.TMR0IF == 1)
+    {
+        Timer0_OverflowISR();
+    }
+    else
+    {
+        //Unhandled Interrupt
+    }
+}
 
 void INT0_ISR(void)
 {

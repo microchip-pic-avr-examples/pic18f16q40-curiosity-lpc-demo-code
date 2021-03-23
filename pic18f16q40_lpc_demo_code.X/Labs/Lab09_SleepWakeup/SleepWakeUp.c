@@ -42,7 +42,7 @@
 
 #include <pic18.h>
 
-#include "../../mcc_generated_files/mcc.h"
+#include "../../mcc_generated_files/system/system.h"
 #include "../../labs.h"
 
 /**

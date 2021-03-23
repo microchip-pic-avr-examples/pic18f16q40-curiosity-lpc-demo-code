@@ -88,7 +88,7 @@ typedef enum
     channel_DAC1 =  0x3d,
     channel_FVR_Buffer1 =  0x3e,
     channel_FVR_Buffer2 =  0x3f,
-    channel_ANC0 =  0x10
+    POT_CHANNEL =  0x10
 } adcc_channel_t;
 
 /**

@@ -1,22 +1,19 @@
-/**
-  @Generated CCL Header File
-
-  @Company:
+/** 
+  @Company
     Microchip Technology Inc.
-
-  @File Name:
-    system.h
-
-  @Summary:
-    This is the system.h file generated using CCL
-
-  @Description:
-    This header file provides implementations for driver APIs for all modules selected in the GUI.
+ 
+  @File Name
+    TMR_interface.h
+ 
+  @Summary
+    This is the generated header file for Timer module interfaces.
+ 
+  @Description
+    This header file provides interfaces to Timer driver APIs.
     Generation Information :
-        Driver Version    :  2.00
+        Driver Version    :  1.0.0
     The generated drivers are tested against the following:
-        Compiler          :  XC8 v2.31
-        MPLAB             :  MPLAB X 5.45
+        MPLAB             :  MPLAB X v5.45
 */
 
 /*
@@ -53,38 +50,33 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
     such restrictions will not apply to such third party software.
 */
 
-#ifndef SYSTEM_H
-#define	SYSTEM_H
-#include <xc.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include <conio.h>
-#include "config_bits.h"
-#include "../uart/uart1.h"
-#include "../timer/tmr1.h"
-#include "../pwm/pwm1_16bit.h"
-#include "../system/interrupt.h"
-#include "../system/clock.h"
-#include "../timer/tmr2.h"
-#include "../adc/adcc.h"
-#include "../flash/flash.h"
-#include "../timer/tmr0.h"
-#include "../system/pins.h"
+#ifndef TMR_INTERFACE_H
+#define TMR_INTERFACE_H
 
 /**
- * @Param
-    none
- * @Returns
-    none
- * @Description
-    Initializes the device to the default states configured in the
- *                  MCC GUI
- * @Example
-    SYSTEM_Initialize(void);
+ * @brief This file contains API prototypes and other datatypes for Timer module.
+ * @defgroup timer_interface Timer Interface
+ * @{
  */
-void SYSTEM_Initialize(void);
 
-#endif	/* SYSTEM_H */
+#include<stddef.h>
+        
 /**
- End of File
-*/
+ @ingroup timer_interface
+ @typedef struct TMR_INTERFACE
+ @brief This structure contains the interfaces to Timer module
+ */
+ 
+struct TMR_INTERFACE
+{
+    void (*Initialize)(void);
+    void (*Start)(void);
+    void (*Stop)(void);
+    void (*PeriodCountSet)(size_t count);
+    void (*TimeoutCallbackRegister)(void (* CallbackHandler)(void));
+    void (*Tasks)(void);
+};
+/**
+ * @}
+ */
+#endif //TMR_INTERFACE_H

@@ -56,19 +56,19 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 // Configuration bits: selected in the GUI
 
 //CONFIG1
-#pragma config FEXTOSC = ECH     // External Oscillator Mode Selection->EC (external clock) above 8 MHz
-#pragma config RSTOSC = EXTOSC     // Power-up Default Value for COSC->EXTOSC operating per FEXTOSC bits (device manufacturing default)
+#pragma config FEXTOSC = OFF     // External Oscillator Mode Selection->Oscillator not enabled
+#pragma config RSTOSC = HFINTOSC_1MHZ     // Power-up Default Value for COSC->HFINTOSC with HFFRQ = 4 MHz and CDIV = 4:1
 
 //CONFIG2
 #pragma config FCMENP = ON     // Fail-Safe Clock Monitor Enable - Primary XTAL Enable->Fail-Safe Clock Monitor enabled; timer will flag FSCMP bit and OSFIF interrupt on EXTOSC failure.
 #pragma config CLKOUTEN = OFF     // Clock Out Enable->CLKOUT function is disabled
-#pragma config FCMEN = ON     // Fail-Safe Clock Monitor Enable->Fail-Safe Clock Monitor enabled
+#pragma config FCMEN = OFF     // Fail-Safe Clock Monitor Enable->Fail-Safe Clock Monitor disabled
 #pragma config CSWEN = ON     // Clock Switch Enable->Writing to NOSC and NDIV is allowed
 #pragma config FCMENS = ON     // Fail-Safe Clock Monitor Enable - Secondary XTAL Enable->Fail-Safe Clock Monitor enabled; timer will flag FSCMP bit and OSFIF interrupt on SOSC failure.
 #pragma config PR1WAY = ON     // PRLOCKED One-Way Set Enable->PRLOCKED bit can be cleared and set only once
 
 //CONFIG3
-#pragma config MVECEN = ON     // Multivector Enable->Multi-vector enabled, Vector table used for interrupts
+#pragma config MVECEN = OFF     // Multivector Enable->Interrupt contoller does not use vector table to prioritze interrupts
 #pragma config MCLRE = EXTMCLR     // Master Clear (MCLR) Enable->If LVP = 0, MCLR pin is MCLR; If LVP = 1, RE3 pin function is MCLR 
 #pragma config BOREN = SBORDIS     // Brown-out Reset Enable->Brown-out Reset enabled , SBOREN bit is ignored
 #pragma config PWRTS = PWRT_OFF     // Power-up Timer Selection->PWRT is disabled
@@ -84,12 +84,12 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 #pragma config PPS1WAY = ON     // PPSLOCKED One-Way Set Enable->PPSLOCKED bit can be cleared and set only once; PPS registers remain locked after one clear/set cycle
 
 //CONFIG5
-#pragma config WDTCPS = WDTCPS_31     // WDT Period Select->Divider ratio 1:65536; software control of WDTPS
-#pragma config WDTE = ON     // WDT Operating Mode->WDT enabled regardless of sleep; SWDTEN is ignored
+#pragma config WDTCPS = WDTCPS_12     // WDT Period Select->Divider ratio 1:131072
+#pragma config WDTE = SWDTEN     // WDT Operating Mode->WDT enabled/disabled by SWDTEN bit
 
 //CONFIG6
 #pragma config WDTCWS = WDTCWS_7     // WDT Window Select->window always open (100%); software control; keyed access not required
-#pragma config WDTCCS = SC     // WDT Input Clock Selector->Software Control
+#pragma config WDTCCS = LFINTOSC     // WDT Input Clock Selector->WDT reference clock is the 31.0 kHz LFINTOSC
 
 //CONFIG7
 #pragma config SAFEN = OFF     // Storage Area Flash (SAF) Enable->SAF disabled
