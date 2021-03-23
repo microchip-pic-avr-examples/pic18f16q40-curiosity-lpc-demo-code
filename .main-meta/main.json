@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=4.10.0"
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,7 +36,7 @@
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
             "MCC",
             [
