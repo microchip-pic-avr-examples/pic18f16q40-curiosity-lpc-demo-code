@@ -2,9 +2,9 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.2.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f16q40-curiosity-lpc-demo-code",
-        "version": "3.0.0",
+        "version": "4.0.0",
         "displayName": "PIC18F16Q40 Low-Pin-Count Curiosity board demo code",
         "projectName": "pic18f16q40-curiosity-lpc-demo-code",
         "shortDescription": "Demo code for LPC board for PIC18-Q40 devices",
@@ -65,10 +65,7 @@
             "ADCC","UART","WWDT","TMR1","PWM"
         ],
         "keywords": [
-            "Demo Code",
             "Getting Started",
-            "Q40",
-            "PIC18-Q40",
             "Melody"			
         ],
 		"additionalData": {
