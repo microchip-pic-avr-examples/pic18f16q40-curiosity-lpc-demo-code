@@ -36,31 +36,7 @@
                 "versionRange": "*"
             }
         },
-        "author": "Microchip",
-        "subcategories": [
-            "MCC",
-            [
-               "Peripherals", "ADCC"
-            ],
-            [
-               "Peripherals", "UART"
-            ],
-            [
-               "Peripherals", "TMR1"
-            ],
-            [
-                "Peripherals", "Interrupts"
-            ],
-            [
-                "Peripherals", "WWDT"
-            ],
-            [
-                "Peripherals", "Sleep"
-            ],
-            [
-                "Peripherals", "PWM"
-            ]            			
-        ],
+        "author": "Microchip",        
         "peripherals": [
             "ADCC","UART","WWDT","TMR1","PWM"
         ],
@@ -68,7 +44,6 @@
             "Getting Started",
             "Melody",
             "Analog"
-
         ],
 		"additionalData": {
 			"longDescription": {
