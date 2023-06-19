@@ -1,0 +1,682 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F16Q40 ]
+[d frameptr 1249 ]
+"65 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab04_AnalogToDigitalConversion/ADC.c
+[e E13010 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+POT_CHANNEL 0
+]
+"68 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab05_VariableSpeedRotate/VSR.c
+[e E13010 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+POT_CHANNEL 0
+]
+"70 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab06_PulseWidthModulation/PWM.c
+[e E13010 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+POT_CHANNEL 0
+]
+"69 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab10_EEPROM/EEPROM.c
+[e E13010 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+POT_CHANNEL 0
+]
+"100 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/adc/src/adcc.c
+[e E13007 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+POT_CHANNEL 0
+]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"50 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab01_HelloWorld/HelloWorld.c
+[v _HelloWorld HelloWorld `(v  1 e 1 0 ]
+"84 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab06_PulseWidthModulation/PWM.c
+[v _PWM_Output_D7_Enable PWM_Output_D7_Enable `(v  1 e 1 0 ]
+"90
+[v _PWM_Output_D7_Disable PWM_Output_D7_Disable `(v  1 e 1 0 ]
+"87 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab08_Interrupts/Interrupt.c
+[v _LAB_ISR LAB_ISR `(v  1 e 1 0 ]
+"46 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"84
+[v _checkButtonS1 checkButtonS1 `(v  1 e 1 0 ]
+"96
+[v _nextLab nextLab `(v  1 e 1 0 ]
+"45 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"121
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"37 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"102
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"111
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"115
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"128
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"137
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"141
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"154
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"163
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"167
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"114
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"37 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+[s S808 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 PS 1 0 :5:1 
+]
+"2463 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8\pic\include\proc\pic18f16q40.h
+[s S811 . 1 `uc 1 SWDTEN 1 0 :1:0 
+`uc 1 WDTPS 1 0 :5:1 
+]
+[s S814 . 1 `uc 1 WDTSEN 1 0 :1:0 
+`uc 1 PS0 1 0 :1:1 
+`uc 1 PS1 1 0 :1:2 
+`uc 1 PS2 1 0 :1:3 
+`uc 1 PS3 1 0 :1:4 
+`uc 1 PS4 1 0 :1:5 
+]
+[s S821 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WDTPS0 1 0 :1:1 
+`uc 1 WDTPS1 1 0 :1:2 
+`uc 1 WDTPS2 1 0 :1:3 
+`uc 1 WDTPS3 1 0 :1:4 
+`uc 1 WDTPS4 1 0 :1:5 
+]
+[u S828 . 1 `S808 1 . 1 0 `S811 1 . 1 0 `S814 1 . 1 0 `S821 1 . 1 0 ]
+[v _WDTCON0bits WDTCON0bits `VES828  1 e 1 @120 ]
+"5055
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5125
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5265
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5305
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5363
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5565
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"9046
+[v _RC5PPS RC5PPS `VEuc  1 e 1 @534 ]
+"12520
+[v _RB6I2C RB6I2C `VEuc  1 e 1 @646 ]
+"12652
+[v _RB4I2C RB4I2C `VEuc  1 e 1 @647 ]
+"26866
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
+"26994
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
+"27129
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
+"27257
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
+"27392
+[v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
+"27520
+[v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
+"27655
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
+"27783
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
+"27918
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
+"28046
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
+"28183
+[v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
+"28311
+[v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
+"28439
+[v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
+"28567
+[v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
+"28695
+[v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
+"28830
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
+"28958
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
+"29086
+[v _ADRES ADRES `VEus  1 e 2 @1002 ]
+"29093
+[v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
+"29221
+[v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
+"29341
+[v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
+"29406
+[v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
+"29534
+[v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
+"29626
+[v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
+"29685
+[v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
+"29813
+[v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
+"29905
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
+[s S978 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"29945
+[s S986 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S994 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S999 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S1001 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[u S1006 . 1 `S978 1 . 1 0 `S986 1 . 1 0 `S994 1 . 1 0 `S999 1 . 1 0 `S1001 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1006  1 e 1 @1011 ]
+"30035
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
+[s S1222 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"30056
+[s S1228 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[u S1234 . 1 `S1222 1 . 1 0 `S1228 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1234  1 e 1 @1012 ]
+"30101
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
+[s S1098 . 1 `uc 1 MD 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"30138
+[s S1103 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S1112 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S1116 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[u S1124 . 1 `S1098 1 . 1 0 `S1103 1 . 1 0 `S1112 1 . 1 0 `S1116 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1124  1 e 1 @1013 ]
+"30243
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
+[s S1043 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"30278
+[s S1047 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S1055 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S1059 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S1067 . 1 `S1043 1 . 1 0 `S1047 1 . 1 0 `S1055 1 . 1 0 `S1059 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES1067  1 e 1 @1014 ]
+"30373
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
+[s S1158 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 AOV 1 0 :1:7 
+]
+"30410
+[s S1165 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S1174 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S1178 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 OV 1 0 :1:7 
+]
+[u S1184 . 1 `S1158 1 . 1 0 `S1165 1 . 1 0 `S1174 1 . 1 0 `S1178 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES1184  1 e 1 @1015 ]
+"30505
+[v _ADREF ADREF `VEuc  1 e 1 @1016 ]
+"30645
+[v _ADACT ADACT `VEuc  1 e 1 @1017 ]
+"30737
+[v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
+"30841
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"30886
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"30936
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"30981
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"31026
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"31076
+[v _IOCAP IOCAP `VEuc  1 e 1 @1029 ]
+"31126
+[v _IOCAN IOCAN `VEuc  1 e 1 @1030 ]
+"31176
+[v _IOCAF IOCAF `VEuc  1 e 1 @1031 ]
+"31226
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"31265
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"31304
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"31343
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"31382
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"31421
+[v _IOCBP IOCBP `VEuc  1 e 1 @1037 ]
+"31460
+[v _IOCBN IOCBN `VEuc  1 e 1 @1038 ]
+"31499
+[v _IOCBF IOCBF `VEuc  1 e 1 @1039 ]
+"31538
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"31600
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"31662
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"31724
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"31786
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"31848
+[v _IOCCP IOCCP `VEuc  1 e 1 @1045 ]
+"31910
+[v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
+"31972
+[v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
+[s S236 . 1 `uc 1 SWIE 1 0 :1:0 
+`uc 1 HLVDIE 1 0 :1:1 
+`uc 1 OSFIE 1 0 :1:2 
+`uc 1 CSWIE 1 0 :1:3 
+`uc 1 NVMIE 1 0 :1:4 
+`uc 1 CLC1IE 1 0 :1:5 
+`uc 1 CRCIE 1 0 :1:6 
+`uc 1 IOCIE 1 0 :1:7 
+]
+"35060
+[u S245 . 1 `S236 1 . 1 0 ]
+"35060
+"35060
+[v _PIE0bits PIE0bits `VES245  1 e 1 @1192 ]
+[s S257 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 NVMIF 1 0 :1:4 
+`uc 1 CLC1IF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"35707
+[u S266 . 1 `S257 1 . 1 0 ]
+"35707
+"35707
+[v _PIR0bits PIR0bits `VES266  1 e 1 @1203 ]
+[s S138 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ACTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"35773
+[s S147 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM1IF 1 0 :1:4 
+]
+"35773
+[u S150 . 1 `S138 1 . 1 0 `S147 1 . 1 0 ]
+"35773
+"35773
+[v _PIR1bits PIR1bits `VES150  1 e 1 @1204 ]
+[s S953 . 1 `uc 1 ADTIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIF 1 0 :1:4 
+`uc 1 DMA1DCNTIF 1 0 :1:5 
+`uc 1 DMA1ORIF 1 0 :1:6 
+`uc 1 DMA1AIF 1 0 :1:7 
+]
+"35838
+[u S960 . 1 `S953 1 . 1 0 ]
+"35838
+"35838
+[v _PIR2bits PIR2bits `VES960  1 e 1 @1205 ]
+[s S176 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"36075
+[u S185 . 1 `S176 1 . 1 0 ]
+"36075
+"36075
+[v _PIR6bits PIR6bits `VES185  1 e 1 @1209 ]
+[s S207 . 1 `uc 1 INT2IF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 DMA4SCNTIF 1 0 :1:4 
+`uc 1 DMA4DCNTIF 1 0 :1:5 
+`uc 1 DMA4ORIF 1 0 :1:6 
+`uc 1 DMA4AIF 1 0 :1:7 
+]
+"36302
+[u S215 . 1 `S207 1 . 1 0 ]
+"36302
+"36302
+[v _PIR10bits PIR10bits `VES215  1 e 1 @1213 ]
+"36337
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+[s S436 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"36352
+[u S443 . 1 `S436 1 . 1 0 ]
+"36352
+"36352
+[v _LATAbits LATAbits `VES443  1 e 1 @1214 ]
+"36382
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"36421
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+[s S415 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"36438
+[u S424 . 1 `S415 1 . 1 0 ]
+"36438
+"36438
+[v _LATCbits LATCbits `VES424  1 e 1 @1216 ]
+"36483
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"36533
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"36572
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+[s S41 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"36740
+[u S50 . 1 `S41 1 . 1 0 ]
+"36740
+"36740
+[v _PORTCbits PORTCbits `VES50  1 e 1 @1232 ]
+[s S112 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36805
+[s S120 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36805
+[u S123 . 1 `S112 1 . 1 0 `S120 1 . 1 0 ]
+"36805
+"36805
+[v _INTCON0bits INTCON0bits `VES123  1 e 1 @1238 ]
+"46039
+[v _TMR0IE TMR0IE `VEb  1 e 0 @9567 ]
+"46111
+[v _TMR1IF TMR1IF `VEb  1 e 0 @9652 ]
+"55 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab02_Blink/Blink.c
+[v _flagCounter flagCounter `uc  1 s 1 flagCounter ]
+"49 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab03_Rotate/Rotate.c
+[v _rotateReg rotateReg `uc  1 s 1 rotateReg ]
+"49 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab04_AnalogToDigitalConversion/ADC.c
+[v _adcResult adcResult `uc  1 s 1 adcResult ]
+"49 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab05_VariableSpeedRotate/VSR.c
+[v _delay delay `uc  1 s 1 delay ]
+"50
+[v _rotateReg@VSR$F638 rotateReg `uc  1 s 1 rotateReg ]
+"55 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab06_PulseWidthModulation/PWM.c
+[v _adcResult@PWM$F693 adcResult `us  1 s 2 adcResult ]
+"50 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab07_Timers/Timers.c
+[v _rotateReg@Timers$F730 rotateReg `uc  1 s 1 rotateReg ]
+"54 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab08_Interrupts/Interrupt.c
+[v _rotateReg@Interrupt$F783 rotateReg `uc  1 s 1 rotateReg ]
+"63 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X/labs.h
+[v _labNumber labNumber `uc  1 e 1 0 ]
+"64
+[v _switchEvent switchEvent `uc  1 e 1 0 ]
+"65
+[v _labState labState `uc  1 e 1 0 ]
+"66
+[v _btnState btnState `uc  1 e 1 0 ]
+"51 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab10_EEPROM/EEPROM.c
+[v _adcResult@EEPROM$F911 adcResult `uc  1 s 1 adcResult ]
+"52
+[v _ledDisplay ledDisplay `uc  1 s 1 ledDisplay ]
+"38 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+"46 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+} 0
+"96
+[v _nextLab nextLab `(v  1 e 1 0 ]
+{
+"103
+} 0
+"84
+[v _checkButtonS1 checkButtonS1 `(v  1 e 1 0 ]
+{
+"94
+} 0
+"37 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"43
+} 0
+"38 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"112
+} 0
+"42 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"163
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"165
+} 0
+"137
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"139
+} 0
+"111
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"113
+} 0
+"37 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"53
+} 0
+"45 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"98
+} 0
+"50 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\Labs/Lab01_HelloWorld/HelloWorld.c
+[v _HelloWorld HelloWorld `(v  1 e 1 0 ]
+{
+"64
+} 0
+"80 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"91
+} 0
+"114 C:\MPLAB Projects\pic18f16q40-curiosity-lpc-demo-code.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"116
+} 0

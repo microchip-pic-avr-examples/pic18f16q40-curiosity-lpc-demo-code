@@ -10,21 +10,21 @@
         "shortDescription": "Demo code for LPC board for PIC18-Q40 devices",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.45.0"
+            "semverRange": ">=6.1.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.31.0"
+				"semverRange": "^2.41.0"
 			}
 		],
         "dfp": {
             "name": "PIC18F-Q_DFP",
-            "semverRange": "^1.11.185"
+            "semverRange": "^1.18.389"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=4.1.0"
+            "semverRange": ">=5.5.7"
         },
         "device": {
             "metaDataVersion": "1.0.0",

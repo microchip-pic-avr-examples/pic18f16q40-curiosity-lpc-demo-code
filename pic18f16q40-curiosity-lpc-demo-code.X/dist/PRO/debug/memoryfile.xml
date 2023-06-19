@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/PRO/debug\pic18f16q40-curiosity-lpc-demo-code.X.debug.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>65536</length>
+      <used>3856</used>
+      <free>61680</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>4096</length>
+      <used>142</used>
+      <free>3954</free>
+    </memory>
+  </executable>
+</project>
